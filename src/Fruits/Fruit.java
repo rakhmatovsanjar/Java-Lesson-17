@@ -1,6 +1,6 @@
 package Fruits;
 
-public abstract class Fruit {
+abstract class Fruit {
     protected String name;
     protected String color;
     protected int weight;
@@ -11,7 +11,6 @@ public abstract class Fruit {
         this.weight = weight;
     }
 
-    final void showInfo() {
-        System.out.println(color + " rangli " + name + " dan" + weight + " kg");
-    }
+//    abstract void showInfo();
+
 }
