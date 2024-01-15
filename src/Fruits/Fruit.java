@@ -10,7 +10,8 @@ public abstract class Fruit {
         this.color = color;
         this.weight = weight;
     }
-    final void showInfo(){
-        System.out.println(color+" rangli "+name+" dan"+weight+" kg");
+
+    final void showInfo() {
+        System.out.println(color + " rangli " + name + " dan" + weight + " kg");
     }
 }
