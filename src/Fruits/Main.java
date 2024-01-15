@@ -11,5 +11,6 @@ public class Main {
         System.out.println(basket.addFruit(pomegranate));
         System.out.println("Safat bo'shmi: "+basket.isEmpty());
         System.out.println("Savat to'lami: "+basket.isFuul());
+        System.out.println("Bo'sh joy: "+basket.getEmptySize());
     }
 }

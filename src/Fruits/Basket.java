@@ -86,4 +86,7 @@ public class Basket {
         }
         else return false;
     }
+    int getEmptySize(){
+        return maxWeight-size;
+    }
 }
